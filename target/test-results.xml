@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<testsuites>
+  <testsuite name="PhantomJS 1.9 (Windows)" package="undefined" timestamp="2014-04-30T01:31:06" id="0" hostname="VISHAL-PC" tests="14" errors="0" failures="2" time="0.078">
+    <properties>
+      <property name="browser.fullName" value="Mozilla/5.0 (Windows NT 6.1) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.7 Safari/534.34"/>
+    </properties>
+    <testcase name="you should be able to get rid of the exception" time="0.012" classname="PhantomJS 1.9 (Windows).Problem 01:"/>
+    <testcase name="should work" time="0.002" classname="PhantomJS 1.9 (Windows).Basic setup"/>
+    <testcase name="you should be able to find duplicate values in an array" time="0" classname="PhantomJS 1.9 (Windows).arrays:"/>
+    <testcase name="you should be able to prepend a value to an array" time="0" classname="PhantomJS 1.9 (Windows).arrays:"/>
+    <testcase name="you should be able to prepend a variable amount of values to an array" time="0.001" classname="PhantomJS 1.9 (Windows).arrays:"/>
+    <testcase name="you should be able to work with logical and" time="0" classname="PhantomJS 1.9 (Windows).logic:"/>
+    <testcase name="you should be able to work with logical or" time="0.001" classname="PhantomJS 1.9 (Windows).logic:"/>
+    <testcase name="you should be able to bind an event handler" time="0.018" classname="PhantomJS 1.9 (Windows).jquery:"/>
+    <testcase name="you should be able to load data asynchronously" time="0.037" classname="PhantomJS 1.9 (Windows).jquery:"/>
+    <testcase name="you should be able to alter the context in which a method runs" time="0" classname="PhantomJS 1.9 (Windows).objects and context:"/>
+    <testcase name="you should be able to return a list of files from the data" time="0.001" classname="PhantomJS 1.9 (Windows).recursion:"/>
+    <testcase name="you should be able to return a list of files in a subdir" time="0.005" classname="PhantomJS 1.9 (Windows).recursion:">
+      <failure type="">AssertionError: you should have found 5 files: expected 8 to equal 5
+    at C:/Users/VISHAL/Desktop/citrix-js/citrix-jsassessment/node_modules/chai/chai.js:509
+    at C:/Users/VISHAL/Desktop/citrix-js/citrix-jsassessment/node_modules/chai/chai.js:1930
+    at C:/Users/VISHAL/Desktop/citrix-js/citrix-jsassessment/test/tests-recursion.js:62
+</failure>
+    </testcase>
+    <testcase name="you should be able to repeat a string" time="0" classname="PhantomJS 1.9 (Windows).strings:"/>
+    <testcase name="you should be able to match a string against a pattern" time="0.001" classname="PhantomJS 1.9 (Windows).strings:">
+      <failure type="">AssertionError: validatePhonenumber(555.123-4567) should return a falsy value: expected true to be falsy
+    at C:/Users/VISHAL/Desktop/citrix-js/citrix-jsassessment/node_modules/chai/chai.js:509
+    at C:/Users/VISHAL/Desktop/citrix-js/citrix-jsassessment/node_modules/chai/chai.js:709
+    at C:/Users/VISHAL/Desktop/citrix-js/citrix-jsassessment/node_modules/chai/chai.js:3154
+</failure>
+    </testcase>
+    <system-out><![CDATA[
+]]></system-out>
+    <system-err/>
+  </testsuite>
+</testsuites>
